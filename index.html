@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.min.css">
+    <title>Github Profiles</title>
+</head>
+<body>
+<main>
+    <div class="profile__search">
+        <form action="/">
+            <input class="search" id="search" type="text" placeholder="Введите ник на GitHub">
+        </form>
+    </div>
+    <div class="profile" style="display: none">
+        <div class="profile__wrapper">
+            <div class="profile__avatar"><img src="" alt=""></div>
+            <div class="profile__info user">
+                <div class="user__name"><span class="name"></span> (<span class="nickname"></span>)</div>
+                <div class="user__descr"></div>
+                <div class="user__stats stats">
+                    <div class="stats__followers followers"><b>Подписчиков</b>: <span class="followers__count">0</span></div>
+                    <div class="stats__following following"><b>Подписок</b>: <span class="following__count">0</span></div>
+                    <div class="stats_repos repos"><b>Репозиториев</b>: <span class="repos__count">0</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="profile__repository">
+        </div>
+    </div>
+<!--    <div class="wrapper">-->
+<!--        <form action="/">-->
+<!--            <input id="username" class="username" type="text" placeholder="GitHub Nickname">-->
+<!--        </form>-->
+<!--    </div>-->
+</main>
+<footer></footer>
+<script src="js/index.js"></script>
+</body>
+</html>

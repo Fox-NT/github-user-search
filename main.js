@@ -32,7 +32,7 @@ const getDate = async url => {
             icon: 'error',
             showCancelButton: false,
             confirmButtonColor: '#935214',
-            confirmButtonText: '<a href="./" style="color: #fff">Назад</a>'
+            confirmButtonText: '<a href="/github-user-search" style="color: #fff">Назад</a>'
         })
     }
     if (!res.ok) {
